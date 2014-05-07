@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99613CAE191AC8550015ABFC /* FinalExamTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613CAD191AC8550015ABFC /* FinalExamTabViewController.m */; };
+		99613CB1191ACBB20015ABFC /* FinalExamAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613CB0191ACBB20015ABFC /* FinalExamAboutViewController.m */; };
+		9972EBDA191A88AA008A252D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBD9191A88AA008A252D /* Foundation.framework */; };
+		9972EBDC191A88AA008A252D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBDB191A88AA008A252D /* CoreGraphics.framework */; };
+		9972EBDE191A88AA008A252D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBDD191A88AA008A252D /* UIKit.framework */; };
+		9972EBE4191A88AA008A252D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9972EBE2191A88AA008A252D /* InfoPlist.strings */; };
+		9972EBE6191A88AA008A252D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EBE5191A88AA008A252D /* main.m */; };
+		9972EBEA191A88AA008A252D /* FinalExamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EBE9191A88AA008A252D /* FinalExamAppDelegate.m */; };
+		9972EBED191A88AA008A252D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9972EBEB191A88AA008A252D /* Main.storyboard */; };
+		9972EBF0191A88AA008A252D /* FinalExamFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EBEF191A88AA008A252D /* FinalExamFirstViewController.m */; };
+		9972EBF3191A88AA008A252D /* FinalExamSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EBF2191A88AA008A252D /* FinalExamSecondViewController.m */; };
+		9972EBF5191A88AA008A252D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9972EBF4191A88AA008A252D /* Images.xcassets */; };
+		9972EBFC191A88AB008A252D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBFB191A88AB008A252D /* XCTest.framework */; };
+		9972EBFD191A88AB008A252D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBD9191A88AA008A252D /* Foundation.framework */; };
+		9972EBFE191A88AB008A252D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9972EBDD191A88AA008A252D /* UIKit.framework */; };
+		9972EC06191A88AB008A252D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC04191A88AB008A252D /* InfoPlist.strings */; };
+		9972EC08191A88AB008A252D /* FinalExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC07191A88AB008A252D /* FinalExamTests.m */; };
+		9972EC3B191A8A6A008A252D /* blank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC16191A8A6A008A252D /* blank.jpg */; };
+		9972EC3C191A8A6A008A252D /* eight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC17191A8A6A008A252D /* eight.jpg */; };
+		9972EC3D191A8A6A008A252D /* eleven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC18191A8A6A008A252D /* eleven.jpg */; };
+		9972EC3F191A8A6A008A252D /* fifteen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC1B191A8A6A008A252D /* fifteen.jpg */; };
+		9972EC40191A8A6A008A252D /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC1C191A8A6A008A252D /* five.jpg */; };
+		9972EC41191A8A6A008A252D /* four.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC1D191A8A6A008A252D /* four.jpg */; };
+		9972EC42191A8A6A008A252D /* fourteen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC1E191A8A6A008A252D /* fourteen.jpg */; };
+		9972EC45191A8A6A008A252D /* nine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC21191A8A6A008A252D /* nine.jpg */; };
+		9972EC46191A8A6A008A252D /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC22191A8A6A008A252D /* one.jpg */; };
+		9972EC47191A8A6A008A252D /* seven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC23191A8A6A008A252D /* seven.jpg */; };
+		9972EC49191A8A6A008A252D /* six.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC25191A8A6A008A252D /* six.jpg */; };
+		9972EC4B191A8A6A008A252D /* SliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC29191A8A6A008A252D /* SliderAppDelegate.m */; };
+		9972EC4C191A8A6A008A252D /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC2B191A8A6A008A252D /* SliderViewController.m */; };
+		9972EC4D191A8A6A008A252D /* ten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC2C191A8A6A008A252D /* ten.jpg */; };
+		9972EC4E191A8A6A008A252D /* thirteen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC2D191A8A6A008A252D /* thirteen.jpg */; };
+		9972EC4F191A8A6A008A252D /* three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC2E191A8A6A008A252D /* three.jpg */; };
+		9972EC50191A8A6A008A252D /* twelve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC2F191A8A6A008A252D /* twelve.jpg */; };
+		9972EC51191A8A6A008A252D /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC30191A8A6A008A252D /* two.jpg */; };
+		9972EC78191A8A84008A252D /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC62191A8A84008A252D /* HarmonigraphView.m */; };
+		9972EC7D191A8A84008A252D /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC6A191A8A84008A252D /* SpirographView.m */; };
+		9972EC7E191A8A84008A252D /* SpirographView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9972EC6B191A8A84008A252D /* SpirographView.xib */; };
+		9972EC7F191A8A84008A252D /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC6D191A8A84008A252D /* SpirographViewController.m */; };
+		9972ECB0191A8A97008A252D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC8E191A8A97008A252D /* Card.m */; };
+		9972ECB1191A8A97008A252D /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC90191A8A97008A252D /* CardGameViewController.m */; };
+		9972ECB3191A8A97008A252D /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC94191A8A97008A252D /* CardMatchingGame.m */; };
+		9972ECB6191A8A97008A252D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972EC9A191A8A97008A252D /* Deck.m */; };
+		9972ECBB191A8A97008A252D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972ECA1191A8A97008A252D /* PlayingCard.m */; };
+		9972ECC1191A8A97008A252D /* muhback.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECAD191A8A97008A252D /* muhback.png */; };
+		9972ECE3191A8AAF008A252D /* Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972ECCB191A8AAF008A252D /* Draw.m */; };
+		9972ECE8191A8AAF008A252D /* Quiz8-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECD3191A8AAF008A252D /* Quiz8-Info.plist */; };
+		9972ECE9191A8AAF008A252D /* Quiz8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972ECD6191A8AAF008A252D /* Quiz8AppDelegate.m */; };
+		9972ECEA191A8AAF008A252D /* Quiz8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972ECD8191A8AAF008A252D /* Quiz8ViewController.m */; };
+		9972ECEB191A8AAF008A252D /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECD9191A8AAF008A252D /* redframe.png */; };
+		9972ECFA191A8DDD008A252D /* etchtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECF6191A8DDD008A252D /* etchtabbaritem.png */; };
+		9972ECFB191A8DDD008A252D /* spirotabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECF7191A8DDD008A252D /* spirotabbaritem.png */; };
+		9972ECFC191A8DDD008A252D /* cardtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECF8191A8DDD008A252D /* cardtabbaritem.png */; };
+		9972ECFD191A8DDD008A252D /* fifteentabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECF9191A8DDD008A252D /* fifteentabbaritem.png */; };
+		9972ECFF191A9227008A252D /* redframer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9972ECFE191A9227008A252D /* redframer.png */; };
+		9972ED08191AB68B008A252D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9972ED07191AB68B008A252D /* CardView.m */; };
+		9972ED0D191AC3D8008A252D /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9972ED0C191AC3D8008A252D /* CardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9972EBFF191A88AB008A252D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9972EBCE191A88AA008A252D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9972EBD5191A88AA008A252D;
+			remoteInfo = FinalExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99613CAC191AC8550015ABFC /* FinalExamTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalExamTabViewController.h; sourceTree = "<group>"; };
+		99613CAD191AC8550015ABFC /* FinalExamTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalExamTabViewController.m; sourceTree = "<group>"; };
+		99613CAF191ACBB20015ABFC /* FinalExamAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalExamAboutViewController.h; sourceTree = "<group>"; };
+		99613CB0191ACBB20015ABFC /* FinalExamAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalExamAboutViewController.m; sourceTree = "<group>"; };
+		9972EBD6191A88AA008A252D /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9972EBD9191A88AA008A252D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9972EBDB191A88AA008A252D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9972EBDD191A88AA008A252D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9972EBE1191A88AA008A252D /* FinalExam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExam-Info.plist"; sourceTree = "<group>"; };
+		9972EBE3191A88AA008A252D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9972EBE5191A88AA008A252D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9972EBE7191A88AA008A252D /* FinalExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalExam-Prefix.pch"; sourceTree = "<group>"; };
+		9972EBE8191A88AA008A252D /* FinalExamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExamAppDelegate.h; sourceTree = "<group>"; };
+		9972EBE9191A88AA008A252D /* FinalExamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamAppDelegate.m; sourceTree = "<group>"; };
+		9972EBEC191A88AA008A252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9972EBEE191A88AA008A252D /* FinalExamFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExamFirstViewController.h; sourceTree = "<group>"; };
+		9972EBEF191A88AA008A252D /* FinalExamFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamFirstViewController.m; sourceTree = "<group>"; };
+		9972EBF1191A88AA008A252D /* FinalExamSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExamSecondViewController.h; sourceTree = "<group>"; };
+		9972EBF2191A88AA008A252D /* FinalExamSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamSecondViewController.m; sourceTree = "<group>"; };
+		9972EBF4191A88AA008A252D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9972EBFA191A88AB008A252D /* FinalExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9972EBFB191A88AB008A252D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9972EC03191A88AB008A252D /* FinalExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExamTests-Info.plist"; sourceTree = "<group>"; };
+		9972EC05191A88AB008A252D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9972EC07191A88AB008A252D /* FinalExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamTests.m; sourceTree = "<group>"; };
+		9972EC16191A8A6A008A252D /* blank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blank.jpg; sourceTree = "<group>"; };
+		9972EC17191A8A6A008A252D /* eight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight.jpg; sourceTree = "<group>"; };
+		9972EC18191A8A6A008A252D /* eleven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eleven.jpg; sourceTree = "<group>"; };
+		9972EC1B191A8A6A008A252D /* fifteen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fifteen.jpg; sourceTree = "<group>"; };
+		9972EC1C191A8A6A008A252D /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		9972EC1D191A8A6A008A252D /* four.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four.jpg; sourceTree = "<group>"; };
+		9972EC1E191A8A6A008A252D /* fourteen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fourteen.jpg; sourceTree = "<group>"; };
+		9972EC21191A8A6A008A252D /* nine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nine.jpg; sourceTree = "<group>"; };
+		9972EC22191A8A6A008A252D /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		9972EC23191A8A6A008A252D /* seven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seven.jpg; sourceTree = "<group>"; };
+		9972EC25191A8A6A008A252D /* six.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = six.jpg; sourceTree = "<group>"; };
+		9972EC28191A8A6A008A252D /* SliderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderAppDelegate.h; sourceTree = "<group>"; };
+		9972EC29191A8A6A008A252D /* SliderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderAppDelegate.m; sourceTree = "<group>"; };
+		9972EC2A191A8A6A008A252D /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		9972EC2B191A8A6A008A252D /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		9972EC2C191A8A6A008A252D /* ten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ten.jpg; sourceTree = "<group>"; };
+		9972EC2D191A8A6A008A252D /* thirteen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thirteen.jpg; sourceTree = "<group>"; };
+		9972EC2E191A8A6A008A252D /* three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = three.jpg; sourceTree = "<group>"; };
+		9972EC2F191A8A6A008A252D /* twelve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twelve.jpg; sourceTree = "<group>"; };
+		9972EC30191A8A6A008A252D /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		9972EC61191A8A84008A252D /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
+		9972EC62191A8A84008A252D /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
+		9972EC69191A8A84008A252D /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		9972EC6A191A8A84008A252D /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
+		9972EC6B191A8A84008A252D /* SpirographView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpirographView.xib; sourceTree = "<group>"; };
+		9972EC6C191A8A84008A252D /* SpirographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographViewController.h; sourceTree = "<group>"; };
+		9972EC6D191A8A84008A252D /* SpirographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
+		9972EC8D191A8A97008A252D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		9972EC8E191A8A97008A252D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		9972EC8F191A8A97008A252D /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		9972EC90191A8A97008A252D /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		9972EC93191A8A97008A252D /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		9972EC94191A8A97008A252D /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		9972EC99191A8A97008A252D /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		9972EC9A191A8A97008A252D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		9972ECA0191A8A97008A252D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		9972ECA1191A8A97008A252D /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		9972ECAD191A8A97008A252D /* muhback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muhback.png; path = ../muhback.png; sourceTree = "<group>"; };
+		9972ECCA191A8AAF008A252D /* Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Draw.h; path = ../Draw.h; sourceTree = "<group>"; };
+		9972ECCB191A8AAF008A252D /* Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Draw.m; path = ../Draw.m; sourceTree = "<group>"; };
+		9972ECD3191A8AAF008A252D /* Quiz8-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Quiz8-Info.plist"; sourceTree = "<group>"; };
+		9972ECD4191A8AAF008A252D /* Quiz8-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Quiz8-Prefix.pch"; sourceTree = "<group>"; };
+		9972ECD5191A8AAF008A252D /* Quiz8AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8AppDelegate.h; sourceTree = "<group>"; };
+		9972ECD6191A8AAF008A252D /* Quiz8AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8AppDelegate.m; sourceTree = "<group>"; };
+		9972ECD7191A8AAF008A252D /* Quiz8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8ViewController.h; sourceTree = "<group>"; };
+		9972ECD8191A8AAF008A252D /* Quiz8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8ViewController.m; sourceTree = "<group>"; };
+		9972ECD9191A8AAF008A252D /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		9972ECF6191A8DDD008A252D /* etchtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etchtabbaritem.png; sourceTree = "<group>"; };
+		9972ECF7191A8DDD008A252D /* spirotabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spirotabbaritem.png; sourceTree = "<group>"; };
+		9972ECF8191A8DDD008A252D /* cardtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtabbaritem.png; sourceTree = "<group>"; };
+		9972ECF9191A8DDD008A252D /* fifteentabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fifteentabbaritem.png; sourceTree = "<group>"; };
+		9972ECFE191A9227008A252D /* redframer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframer.png; sourceTree = "<group>"; };
+		9972ED06191AB68B008A252D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = ../../../CardView.h; sourceTree = "<group>"; };
+		9972ED07191AB68B008A252D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = ../../../CardView.m; sourceTree = "<group>"; };
+		9972ED0C191AC3D8008A252D /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9972EBD3191A88AA008A252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972EBDC191A88AA008A252D /* CoreGraphics.framework in Frameworks */,
+				9972EBDE191A88AA008A252D /* UIKit.framework in Frameworks */,
+				9972EBDA191A88AA008A252D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9972EBF7191A88AB008A252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972EBFC191A88AB008A252D /* XCTest.framework in Frameworks */,
+				9972EBFE191A88AB008A252D /* UIKit.framework in Frameworks */,
+				9972EBFD191A88AB008A252D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9972EBCD191A88AA008A252D = {
+			isa = PBXGroup;
+			children = (
+				9972EBDF191A88AA008A252D /* FinalExam */,
+				9972EC01191A88AB008A252D /* FinalExamTests */,
+				9972EBD8191A88AA008A252D /* Frameworks */,
+				9972EBD7191A88AA008A252D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9972EBD7191A88AA008A252D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9972EBD6191A88AA008A252D /* FinalExam.app */,
+				9972EBFA191A88AB008A252D /* FinalExamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9972EBD8191A88AA008A252D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9972EBD9191A88AA008A252D /* Foundation.framework */,
+				9972EBDB191A88AA008A252D /* CoreGraphics.framework */,
+				9972EBDD191A88AA008A252D /* UIKit.framework */,
+				9972EBFB191A88AB008A252D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9972EBDF191A88AA008A252D /* FinalExam */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC5C191A8A84008A252D /* Spirograph */,
+				9972EC13191A8A6A008A252D /* Slider */,
+				9972ECCC191A8AAF008A252D /* Quiz8 */,
+				9972EC8A191A8A97008A252D /* CardMatchingGame */,
+				9972ECF6191A8DDD008A252D /* etchtabbaritem.png */,
+				9972ECF7191A8DDD008A252D /* spirotabbaritem.png */,
+				9972ECF8191A8DDD008A252D /* cardtabbaritem.png */,
+				9972ECF9191A8DDD008A252D /* fifteentabbaritem.png */,
+				9972EBE8191A88AA008A252D /* FinalExamAppDelegate.h */,
+				9972EBE9191A88AA008A252D /* FinalExamAppDelegate.m */,
+				9972EBEB191A88AA008A252D /* Main.storyboard */,
+				99613CAF191ACBB20015ABFC /* FinalExamAboutViewController.h */,
+				99613CB0191ACBB20015ABFC /* FinalExamAboutViewController.m */,
+				99613CAC191AC8550015ABFC /* FinalExamTabViewController.h */,
+				99613CAD191AC8550015ABFC /* FinalExamTabViewController.m */,
+				9972EBEE191A88AA008A252D /* FinalExamFirstViewController.h */,
+				9972EBEF191A88AA008A252D /* FinalExamFirstViewController.m */,
+				9972EBF1191A88AA008A252D /* FinalExamSecondViewController.h */,
+				9972EBF2191A88AA008A252D /* FinalExamSecondViewController.m */,
+				9972EBF4191A88AA008A252D /* Images.xcassets */,
+				9972EBE0191A88AA008A252D /* Supporting Files */,
+			);
+			path = FinalExam;
+			sourceTree = "<group>";
+		};
+		9972EBE0191A88AA008A252D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9972EBE1191A88AA008A252D /* FinalExam-Info.plist */,
+				9972EBE2191A88AA008A252D /* InfoPlist.strings */,
+				9972EBE5191A88AA008A252D /* main.m */,
+				9972EBE7191A88AA008A252D /* FinalExam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9972EC01191A88AB008A252D /* FinalExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC07191A88AB008A252D /* FinalExamTests.m */,
+				9972EC02191A88AB008A252D /* Supporting Files */,
+			);
+			path = FinalExamTests;
+			sourceTree = "<group>";
+		};
+		9972EC02191A88AB008A252D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC03191A88AB008A252D /* FinalExamTests-Info.plist */,
+				9972EC04191A88AB008A252D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9972EC13191A8A6A008A252D /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC16191A8A6A008A252D /* blank.jpg */,
+				9972EC17191A8A6A008A252D /* eight.jpg */,
+				9972EC18191A8A6A008A252D /* eleven.jpg */,
+				9972EC1B191A8A6A008A252D /* fifteen.jpg */,
+				9972EC1C191A8A6A008A252D /* five.jpg */,
+				9972EC1D191A8A6A008A252D /* four.jpg */,
+				9972EC1E191A8A6A008A252D /* fourteen.jpg */,
+				9972EC21191A8A6A008A252D /* nine.jpg */,
+				9972EC22191A8A6A008A252D /* one.jpg */,
+				9972EC23191A8A6A008A252D /* seven.jpg */,
+				9972EC25191A8A6A008A252D /* six.jpg */,
+				9972EC28191A8A6A008A252D /* SliderAppDelegate.h */,
+				9972EC29191A8A6A008A252D /* SliderAppDelegate.m */,
+				9972EC2A191A8A6A008A252D /* SliderViewController.h */,
+				9972EC2B191A8A6A008A252D /* SliderViewController.m */,
+				9972EC2C191A8A6A008A252D /* ten.jpg */,
+				9972EC2D191A8A6A008A252D /* thirteen.jpg */,
+				9972EC2E191A8A6A008A252D /* three.jpg */,
+				9972EC2F191A8A6A008A252D /* twelve.jpg */,
+				9972EC30191A8A6A008A252D /* two.jpg */,
+			);
+			name = Slider;
+			path = Slider/Slider;
+			sourceTree = "<group>";
+		};
+		9972EC5C191A8A84008A252D /* Spirograph */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC61191A8A84008A252D /* HarmonigraphView.h */,
+				9972EC62191A8A84008A252D /* HarmonigraphView.m */,
+				9972EC69191A8A84008A252D /* SpirographView.h */,
+				9972EC6A191A8A84008A252D /* SpirographView.m */,
+				9972EC6B191A8A84008A252D /* SpirographView.xib */,
+				9972EC6C191A8A84008A252D /* SpirographViewController.h */,
+				9972EC6D191A8A84008A252D /* SpirographViewController.m */,
+			);
+			name = Spirograph;
+			path = "Spirograph-master/Spirograph";
+			sourceTree = "<group>";
+		};
+		9972EC8A191A8A97008A252D /* CardMatchingGame */ = {
+			isa = PBXGroup;
+			children = (
+				9972EC93191A8A97008A252D /* CardMatchingGame.h */,
+				9972EC94191A8A97008A252D /* CardMatchingGame.m */,
+				9972ED06191AB68B008A252D /* CardView.h */,
+				9972ED07191AB68B008A252D /* CardView.m */,
+				9972ED0C191AC3D8008A252D /* CardView.xib */,
+				9972EC8D191A8A97008A252D /* Card.h */,
+				9972EC8E191A8A97008A252D /* Card.m */,
+				9972EC8F191A8A97008A252D /* CardGameViewController.h */,
+				9972EC90191A8A97008A252D /* CardGameViewController.m */,
+				9972EC99191A8A97008A252D /* Deck.h */,
+				9972EC9A191A8A97008A252D /* Deck.m */,
+				9972ECA0191A8A97008A252D /* PlayingCard.h */,
+				9972ECA1191A8A97008A252D /* PlayingCard.m */,
+				9972ECAD191A8A97008A252D /* muhback.png */,
+			);
+			name = CardMatchingGame;
+			path = CardMatchingGame/CardMatchingGame;
+			sourceTree = "<group>";
+		};
+		9972ECCC191A8AAF008A252D /* Quiz8 */ = {
+			isa = PBXGroup;
+			children = (
+				9972ECFE191A9227008A252D /* redframer.png */,
+				9972ECCB191A8AAF008A252D /* Draw.m */,
+				9972ECCA191A8AAF008A252D /* Draw.h */,
+				9972ECD3191A8AAF008A252D /* Quiz8-Info.plist */,
+				9972ECD4191A8AAF008A252D /* Quiz8-Prefix.pch */,
+				9972ECD5191A8AAF008A252D /* Quiz8AppDelegate.h */,
+				9972ECD6191A8AAF008A252D /* Quiz8AppDelegate.m */,
+				9972ECD7191A8AAF008A252D /* Quiz8ViewController.h */,
+				9972ECD8191A8AAF008A252D /* Quiz8ViewController.m */,
+				9972ECD9191A8AAF008A252D /* redframe.png */,
+			);
+			name = Quiz8;
+			path = Quiz8/Quiz8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9972EBD5191A88AA008A252D /* FinalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9972EC0B191A88AB008A252D /* Build configuration list for PBXNativeTarget "FinalExam" */;
+			buildPhases = (
+				9972EBD2191A88AA008A252D /* Sources */,
+				9972EBD3191A88AA008A252D /* Frameworks */,
+				9972EBD4191A88AA008A252D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalExam;
+			productName = FinalExam;
+			productReference = 9972EBD6191A88AA008A252D /* FinalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9972EBF9191A88AB008A252D /* FinalExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9972EC0E191A88AB008A252D /* Build configuration list for PBXNativeTarget "FinalExamTests" */;
+			buildPhases = (
+				9972EBF6191A88AB008A252D /* Sources */,
+				9972EBF7191A88AB008A252D /* Frameworks */,
+				9972EBF8191A88AB008A252D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9972EC00191A88AB008A252D /* PBXTargetDependency */,
+			);
+			name = FinalExamTests;
+			productName = FinalExamTests;
+			productReference = 9972EBFA191A88AB008A252D /* FinalExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9972EBCE191A88AA008A252D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FinalExam;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "MariAnne Skolnik";
+				TargetAttributes = {
+					9972EBF9191A88AB008A252D = {
+						TestTargetID = 9972EBD5191A88AA008A252D;
+					};
+				};
+			};
+			buildConfigurationList = 9972EBD1191A88AA008A252D /* Build configuration list for PBXProject "FinalExam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9972EBCD191A88AA008A252D;
+			productRefGroup = 9972EBD7191A88AA008A252D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9972EBD5191A88AA008A252D /* FinalExam */,
+				9972EBF9191A88AB008A252D /* FinalExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9972EBD4191A88AA008A252D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972EC4D191A8A6A008A252D /* ten.jpg in Resources */,
+				9972EC3D191A8A6A008A252D /* eleven.jpg in Resources */,
+				9972ECFF191A9227008A252D /* redframer.png in Resources */,
+				9972EC45191A8A6A008A252D /* nine.jpg in Resources */,
+				9972EBF5191A88AA008A252D /* Images.xcassets in Resources */,
+				9972ECC1191A8A97008A252D /* muhback.png in Resources */,
+				9972ECFA191A8DDD008A252D /* etchtabbaritem.png in Resources */,
+				9972EC3C191A8A6A008A252D /* eight.jpg in Resources */,
+				9972ECE8191A8AAF008A252D /* Quiz8-Info.plist in Resources */,
+				9972EC4E191A8A6A008A252D /* thirteen.jpg in Resources */,
+				9972EC3B191A8A6A008A252D /* blank.jpg in Resources */,
+				9972EC3F191A8A6A008A252D /* fifteen.jpg in Resources */,
+				9972EC40191A8A6A008A252D /* five.jpg in Resources */,
+				9972EC47191A8A6A008A252D /* seven.jpg in Resources */,
+				9972EC49191A8A6A008A252D /* six.jpg in Resources */,
+				9972EC46191A8A6A008A252D /* one.jpg in Resources */,
+				9972EC41191A8A6A008A252D /* four.jpg in Resources */,
+				9972EC50191A8A6A008A252D /* twelve.jpg in Resources */,
+				9972EBE4191A88AA008A252D /* InfoPlist.strings in Resources */,
+				9972EC51191A8A6A008A252D /* two.jpg in Resources */,
+				9972EC42191A8A6A008A252D /* fourteen.jpg in Resources */,
+				9972ECFC191A8DDD008A252D /* cardtabbaritem.png in Resources */,
+				9972ECFD191A8DDD008A252D /* fifteentabbaritem.png in Resources */,
+				9972EC4F191A8A6A008A252D /* three.jpg in Resources */,
+				9972ECEB191A8AAF008A252D /* redframe.png in Resources */,
+				9972EC7E191A8A84008A252D /* SpirographView.xib in Resources */,
+				9972ECFB191A8DDD008A252D /* spirotabbaritem.png in Resources */,
+				9972EBED191A88AA008A252D /* Main.storyboard in Resources */,
+				9972ED0D191AC3D8008A252D /* CardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9972EBF8191A88AB008A252D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972EC06191A88AB008A252D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9972EBD2191A88AA008A252D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972ECB6191A8A97008A252D /* Deck.m in Sources */,
+				9972EC4C191A8A6A008A252D /* SliderViewController.m in Sources */,
+				9972EC78191A8A84008A252D /* HarmonigraphView.m in Sources */,
+				9972ECEA191A8AAF008A252D /* Quiz8ViewController.m in Sources */,
+				9972ECB0191A8A97008A252D /* Card.m in Sources */,
+				9972ECB1191A8A97008A252D /* CardGameViewController.m in Sources */,
+				9972EC7D191A8A84008A252D /* SpirographView.m in Sources */,
+				9972EBF0191A88AA008A252D /* FinalExamFirstViewController.m in Sources */,
+				99613CB1191ACBB20015ABFC /* FinalExamAboutViewController.m in Sources */,
+				9972ECBB191A8A97008A252D /* PlayingCard.m in Sources */,
+				9972EC7F191A8A84008A252D /* SpirographViewController.m in Sources */,
+				9972ECE9191A8AAF008A252D /* Quiz8AppDelegate.m in Sources */,
+				9972ECB3191A8A97008A252D /* CardMatchingGame.m in Sources */,
+				9972EBEA191A88AA008A252D /* FinalExamAppDelegate.m in Sources */,
+				9972ED08191AB68B008A252D /* CardView.m in Sources */,
+				99613CAE191AC8550015ABFC /* FinalExamTabViewController.m in Sources */,
+				9972EC4B191A8A6A008A252D /* SliderAppDelegate.m in Sources */,
+				9972EBF3191A88AA008A252D /* FinalExamSecondViewController.m in Sources */,
+				9972ECE3191A8AAF008A252D /* Draw.m in Sources */,
+				9972EBE6191A88AA008A252D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9972EBF6191A88AB008A252D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9972EC08191A88AB008A252D /* FinalExamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9972EC00191A88AB008A252D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9972EBD5191A88AA008A252D /* FinalExam */;
+			targetProxy = 9972EBFF191A88AB008A252D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9972EBE2191A88AA008A252D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9972EBE3191A88AA008A252D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9972EBEB191A88AA008A252D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9972EBEC191A88AA008A252D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9972EC04191A88AB008A252D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9972EC05191A88AB008A252D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9972EC09191A88AB008A252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9972EC0A191A88AB008A252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9972EC0C191A88AB008A252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9972EC0D191A88AB008A252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9972EC0F191A88AB008A252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalExam.app/FinalExam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FinalExamTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9972EC10191A88AB008A252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalExam.app/FinalExam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExamTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9972EBD1191A88AA008A252D /* Build configuration list for PBXProject "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9972EC09191A88AB008A252D /* Debug */,
+				9972EC0A191A88AB008A252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9972EC0B191A88AB008A252D /* Build configuration list for PBXNativeTarget "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9972EC0C191A88AB008A252D /* Debug */,
+				9972EC0D191A88AB008A252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9972EC0E191A88AB008A252D /* Build configuration list for PBXNativeTarget "FinalExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9972EC0F191A88AB008A252D /* Debug */,
+				9972EC10191A88AB008A252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9972EBCE191A88AA008A252D /* Project object */;
+}
